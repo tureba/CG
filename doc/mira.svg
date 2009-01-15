@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2261"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   sodipodi:docbase="/home/tureba/usp/Trabalhos/CG"
+   sodipodi:docname="mira.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs2263" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="375"
+     inkscape:cy="745.65235"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1016"
+     inkscape:window-height="719"
+     inkscape:window-x="0"
+     inkscape:window-y="0" />
+  <metadata
+     id="metadata2266">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.00106609;stroke-miterlimit:4;stroke-dasharray:8.00852871,8.00852871;stroke-dashoffset:0;stroke-opacity:1;font-family:Arial"
+       id="rect42130"
+       width="74.573715"
+       height="74.573708"
+       x="310.59131"
+       y="207.19716" />
+    <rect
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke-width:3.9460001;stroke-miterlimit:4;stroke-dasharray:31.568, 3.946;stroke-dashoffset:0;stroke-opacity:1;font-family:Arial"
+       id="rect43123"
+       width="10.822336"
+       height="32.467007"
+       x="342.46701"
+       y="206.60583" />
+    <rect
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke-width:3.9460001;stroke-miterlimit:4;stroke-dasharray:31.568, 3.946;stroke-dashoffset:0;stroke-opacity:1;font-family:Arial"
+       id="rect43126"
+       width="10.822336"
+       height="32.467007"
+       x="342.46701"
+       y="249.89517" />
+    <rect
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke-width:3.9460001;stroke-miterlimit:4;stroke-dasharray:31.568, 3.946;stroke-dashoffset:0;stroke-opacity:1;font-family:Arial"
+       id="rect43128"
+       width="10.822336"
+       height="32.467007"
+       x="239.07285"
+       y="-385.75635"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <rect
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke-width:3.9460001;stroke-miterlimit:4;stroke-dasharray:31.568, 3.946;stroke-dashoffset:0;stroke-opacity:1;font-family:Arial"
+       id="rect43130"
+       width="10.822336"
+       height="32.467007"
+       x="239.07285"
+       y="-342.46701"
+       transform="matrix(0,1,-1,0,0,0)" />
+  </g>
+</svg>
