@@ -3,7 +3,7 @@ fontes = $(wildcard *.cpp)
 
 objetos = $(patsubst $.cpp,$.o,$(fontes))
 
-CXXFLAGS=-g -Wall -Wextra -O2 -Wno-unused-parameter
+CXXFLAGS=-g -Wall -Wextra -O2 -Wno-unused-parameter -DILUT_USE_OPENGL
 LDFLAGS=-lglut -lILUT -lm
 
 all: $(objetos) main

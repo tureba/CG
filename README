@@ -1,0 +1,20 @@
+Trabalho de Computação Gráfica - Tiro ao Alvo
+
+Autores:
+	Arthur Filipe M. Nascimento - n°USP 5634455
+	Rafael Piovesan C. Machado - n°USP 5634945
+	Valter D. Moraes Junior - n°USP 5634820
+	Ulisses F. Soares - n°USP 5377365
+
+Profa. Dra. Rosane Minghim
+P.A.E.: Danilo Medeiros Eler
+
+
+Aviso legal: Este programa e todos os arquivos que o compoem
+estão sob a licença GPLv3 quando não informado o contrário.
+
+TODO: Versões atuais da biblioteca DevIL quebram este programa
+	fazendo com que as texturas apareçam invertidas. Isso
+	será consertado assim que possível.
+
+
