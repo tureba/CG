@@ -58,7 +58,7 @@ void Rolha::desenha()
 			glVertex3f(-0.66f, -0.4f, 0.0f);
 			glVertex3f(-0.66f, 0.4f, 0.0f);
 		glEnd();
-		
+
 		// base 2 da rolha
 		glBegin(GL_POLYGON);
 			glVertex3f(0.0f, 0.8f, 5.0f);
@@ -127,7 +127,7 @@ void Rolha::moveRolha(float x, float y)
 
 /*
  * Método que calcula o movimento da rolha.
- * Este movimento só faz sentido 
+ * Este movimento só faz sentido
  */
 bool Rolha::atualiza(float dt)
 {
@@ -194,7 +194,7 @@ void Rolha::atira()
 
 		//o vetor toma a intencidade definida antes
 		velocidade = vel_vet*vel;
-		
+
 		//ajustes devido à orientação da cena adotada
 		velocidade.x() = -velocidade.x();
 		velocidade.z() = -velocidade.z();

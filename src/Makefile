@@ -1,23 +1,20 @@
 
 fontes = $(wildcard *.cpp)
 
-objetos = $(patsubst $.cpp,$.o,$(fontes))
+objetos = $(patsubst %.cpp,%.o,$(fontes))
 
 CXXFLAGS=-g -Wall -Wextra -O2 -Wno-unused-parameter -DILUT_USE_OPENGL
-LDFLAGS=-lglut -lILUT -lm
+LDFLAGS=-lglut -lIL -lILUT -lm -lGL -lGLU
 
-all: $(objetos) main
-	mv main ../CG
-
-$(objetos):
-	echo $(objetos)
+all: CG
 
 %.o: %.cpp %.h
 
-main: $(objetos)
+CG: $(objetos)
+	-g++ -o CG $(objetos) $(LDFLAGS)
 
 clear: clean
 
 clean:
-	rm *.o main ../CG -fr
+	-rm -f *.o CG
 
