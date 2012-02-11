@@ -6,7 +6,7 @@
  *
  * É necessária para centralizar e simplificar a física
  * do programa. Desta forma é possível encontrar diretamente
- * todos os objetos que se movem na cena tanto para 
+ * todos os objetos que se movem na cena tanto para
  * a detecção de colisões quanto para apenas movê-los de
  * forma uniforme.
  *

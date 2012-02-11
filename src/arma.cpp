@@ -122,7 +122,7 @@ void Arma::desenha()
 				glVertex3f(-0.86f, -0.5f, 0.0f);
 				glVertex3f(-0.86f, 0.5f, 0.0f);
 			glEnd();
-		
+
 			// base 2 do cano
 			//glBegin(GL_POLYGON);
 			glBegin(GL_LINE_LOOP);
@@ -206,14 +206,14 @@ void Arma::desenha()
 			glEnd();
 
 			//mira do cano da arma
-			
+
 			glBegin(GL_LINES);
 				glVertex3f(0.125f, 0.75f, 2.0f);
 				glVertex3f(0.125f, 1.2f, 2.0f);
-			
+
 				glVertex3f(-0.125f, 0.75f, 2.0f);
 				glVertex3f(-0.125f, 1.2f, 2.0f);
-	
+
 				glVertex3f(0.0f, 1.0f, 2.0f);
 				glVertex3f(0.125f, 0.75f, 2.0f);
 
@@ -238,7 +238,7 @@ void Arma::desenha()
 				glVertex3f(0.0f, 1.0f, 5.0f);
 				glVertex3f(-0.125f, 0.75f, 2.0f);
 			glEnd();
-			
+
 		glPopMatrix();
 }
 

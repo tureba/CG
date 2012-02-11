@@ -232,7 +232,7 @@ int main (int argc, char ** argv, char ** envp)
 	//inicializações do OpenGL e glut
 	glutInit(&argc, argv);
 	glutInitDisplayMode (GLUT_DOUBLE | GLUT_RGBA | GLUT_DEPTH);
-	glutInitWindowSize (window_size_x, window_size_y); 
+	glutInitWindowSize (window_size_x, window_size_y);
 	glutInitWindowPosition (100, 80);
 	glutCreateWindow ("Trabalho de Computacao Grafica - Tiro ao Alvo");
 	glutSetCursor(GLUT_CURSOR_NONE);
@@ -249,7 +249,7 @@ int main (int argc, char ** argv, char ** envp)
 	ilutRenderer(ILUT_OPENGL);
 
 	//registra todas as funções de tratamento de eventos no OpenGL
-	glutDisplayFunc(display); 
+	glutDisplayFunc(display);
 	glutReshapeFunc(reshape);
 	glutPassiveMotionFunc(mouse_movimento_passivo);
 	glutMouseFunc(gerencia_mouse);
@@ -274,6 +274,10 @@ int main (int argc, char ** argv, char ** envp)
 	new Alvo();
 	new Alvo();
 	new Alvo();
+
+	glMatrixMode (GL_TEXTURE);
+	glLoadIdentity();
+	glScalef(1.0f, -1.0f, 1.0f);
 
 	//vamos jogar!
 	glutMainLoop();

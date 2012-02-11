@@ -69,7 +69,7 @@ class Barraca: virtual public Visual {
 
 		}
 
-		
+
 		/*
 		 * Método que mostra a barraca e tudo o que compoe o cenário
 		 */

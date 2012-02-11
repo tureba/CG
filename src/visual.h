@@ -40,7 +40,7 @@ class Visual {
 				lista_visual->push_back(this);
 		}
 
-		
+
 		/*
 		 * Destrutor padrão.
 		 * Ele é responsável por remover o objeto da lista de objetos visuais.

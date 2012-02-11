@@ -12,6 +12,7 @@ all: CG
 
 CG: $(objetos)
 	-g++ -o CG $(objetos) $(LDFLAGS)
+	-mv CG ..
 
 clear: clean
 

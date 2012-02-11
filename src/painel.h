@@ -46,7 +46,7 @@ class Painel: virtual public Visual {
 
 		}
 
-		
+
 		/*
 		 * Método que mostra o painel na tela
 		 */
