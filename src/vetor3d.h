@@ -3,6 +3,7 @@
 #define VETOR3D_H
 
 #include <string>
+#include <cmath>
 
 
 /*

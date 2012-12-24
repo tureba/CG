@@ -55,13 +55,10 @@ class Movel: virtual public Visual {
 		 * e a classe Movel herda esse construtor, não é necessário
 		 * reimplementar tal código nesta classe.
 		 */
-		/*
-		~Movel()
+		virtual ~Movel()
 		{
 			lista_movel->remove(this);
-			lista_visual->remove(this);
 		}
-		*/
 
 
 		/*

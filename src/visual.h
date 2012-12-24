@@ -45,7 +45,7 @@ class Visual {
 		 * Destrutor padrão.
 		 * Ele é responsável por remover o objeto da lista de objetos visuais.
 		 */
-		~Visual() {
+		virtual ~Visual() {
 			lista_visual->remove(this);
 		}
 
