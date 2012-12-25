@@ -1,6 +1,6 @@
 MODULES := src
 
-CXXFLAGS := -g -Wall -Wextra -O2 -Wno-unused-parameter -DILUT_USE_OPENGL
+CXXFLAGS := -g -std=c++11 -Wall -Wextra -O2 -Wno-unused-parameter -DILUT_USE_OPENGL
 
 # look for include files in each of the modules
 CXXFLAGS += $(patsubst %,-I%,$(MODULES))

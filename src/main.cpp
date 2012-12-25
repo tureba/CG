@@ -80,8 +80,8 @@ void display()
 
 	//itera a lista de objetos visuais desenhando todos eles
 	//(obs: a ordem de chamada destes objetos não é determinística)
-	for(list<Visual *>::iterator obj = osObjetosVisuais.begin(); obj!=osObjetosVisuais.end(); obj++)
-		(*obj)->desenha();
+	for(auto obj: osObjetosVisuais)
+		obj->desenha();
 
 	//troca os buffers, já que estamos usando double buffering
 	glutSwapBuffers();
@@ -204,9 +204,11 @@ void move_tudo(int valor)
 	for(list<Movel *>::iterator obj = osObjetosMoveis.begin(); obj!=osObjetosMoveis.end(); )
 		//execute a função de recálculo da animação
 		if ((*obj)->atualiza(1000.0/fps)) {
+			auto anterior = obj;
+			anterior++;
 			//e se ele expirou, o remove seguindo em frente na lista
 			delete *obj;
-			obj = osObjetosMoveis.erase(obj);
+			obj = anterior;
 		}
 		else
 			//caso contrário, apenas segue em frente na lista
